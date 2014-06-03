@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="baseAPIurl" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://127.1.0.1</Value>
+      <Value Profile="(Default)">http://api.ddnsapi.com</Value>
     </Setting>
     <Setting Name="apiKeyTemp" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

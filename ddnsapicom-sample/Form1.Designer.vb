@@ -28,6 +28,7 @@ Partial Class Form1
         Me.btnDeviceLookup = New System.Windows.Forms.Button()
         Me.btnIPLookup = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnDNSUpdate
@@ -50,7 +51,7 @@ Partial Class Form1
         '
         'btnAllDevices
         '
-        Me.btnAllDevices.Location = New System.Drawing.Point(12, 70)
+        Me.btnAllDevices.Location = New System.Drawing.Point(12, 99)
         Me.btnAllDevices.Name = "btnAllDevices"
         Me.btnAllDevices.Size = New System.Drawing.Size(186, 23)
         Me.btnAllDevices.TabIndex = 2
@@ -59,7 +60,7 @@ Partial Class Form1
         '
         'btnDeviceLookup
         '
-        Me.btnDeviceLookup.Location = New System.Drawing.Point(12, 99)
+        Me.btnDeviceLookup.Location = New System.Drawing.Point(12, 128)
         Me.btnDeviceLookup.Name = "btnDeviceLookup"
         Me.btnDeviceLookup.Size = New System.Drawing.Size(186, 23)
         Me.btnDeviceLookup.TabIndex = 3
@@ -68,7 +69,7 @@ Partial Class Form1
         '
         'btnIPLookup
         '
-        Me.btnIPLookup.Location = New System.Drawing.Point(12, 128)
+        Me.btnIPLookup.Location = New System.Drawing.Point(12, 157)
         Me.btnIPLookup.Name = "btnIPLookup"
         Me.btnIPLookup.Size = New System.Drawing.Size(186, 23)
         Me.btnIPLookup.TabIndex = 4
@@ -84,11 +85,21 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 70)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(186, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Update Device"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(214, 288)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnIPLookup)
         Me.Controls.Add(Me.btnDeviceLookup)
@@ -108,5 +119,6 @@ Partial Class Form1
     Friend WithEvents btnDeviceLookup As System.Windows.Forms.Button
     Friend WithEvents btnIPLookup As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class

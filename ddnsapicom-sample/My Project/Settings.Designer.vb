@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("http://127.1.0.1")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("http://api.ddnsapi.com")>  _
         Public Property baseAPIurl() As String
             Get
                 Return CType(Me("baseAPIurl"),String)
